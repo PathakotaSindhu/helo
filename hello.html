@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hello.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="heading">
+      <h1>TEXT YOUR MESSAGE</h1>
+      <h3>ENTER YOUR MESSAGE</h3>
+    </div>
+
+    
+
+    
+    <input id="ts" type="text">
+
+    <button onclick="myFunction()">Submit</button> 
+  <p id="msg"></p> 
+  <pre>"life is not finding about yourself,
+    Life is about creating yourself"</pre>
+  
+
+
+  <script> 
+  function myFunction() { 
+     let text = document.getElementById("ts").value; 
+     document.getElementById("msg").innerHTML=text;
+ }
+
+</script>
+</body>
+</html>
